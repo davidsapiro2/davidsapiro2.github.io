@@ -23,7 +23,7 @@ body {
 }
 .resumebox {
   padding-top: 80px;
-  height: 85vh;
+  height: 100%;
 }
 .resumePDF {
   display: flex;
@@ -33,7 +33,8 @@ body {
 .contactbox {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 100%;
+  padding-top: 50px;
   padding-left: 20px;
   justify-content: flex-start;
   align-items: center;
