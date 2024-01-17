@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+}
+.homebox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-container{
+  height: 80vh
+}
+.aboutbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  padding-left: 20px;
+}
+.resumebox {
+  padding-top: 80px;
+  height: 85vh;
+}
+.resumePDF {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contactbox {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  padding-left: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
